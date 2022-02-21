@@ -34,3 +34,13 @@ else:
 # aplicar esquema de freeradius y daloradius
     
 conn.close()
+
+
+#modificar mods-available
+#dialect = "mysql"
+#comentar driver de arriba
+#driver = "rlm_sql_${dialect}"
+#server, port, login, password, radius_db = "radiusdb"
+#comentar tls mysql
+#descomentar read_clints = yes
+
